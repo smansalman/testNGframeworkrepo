@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tek school Data Driven Framework " verbose="3">
+<listeners>
+		<listener class-name="utilities.TestNGListeners"></listener>
+	</listeners>
+
+	<parameter name="userName" value="student@test.com" />
+	<parameter name="password" value="welcome1" />
+
+	<test name="Login to Hotel Page">
+
+		<classes>
+			<class name="tests.TestNGConcepts" />
+			<class name = "tests.SmokeTest"/>
+		</classes>
+	</test>
+</suite>
