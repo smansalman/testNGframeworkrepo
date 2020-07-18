@@ -13,8 +13,7 @@
 	<test name="Login to Hotel Page">
 
 		<classes>
-			<class name="tests.TestNGConcepts" />
-			<class name = "tests.SmokeTest"/>
+			<class name="tests.HotelLogin"/>
 		</classes>
 	</test>
 </suite>
