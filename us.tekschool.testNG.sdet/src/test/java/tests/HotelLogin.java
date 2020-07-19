@@ -21,7 +21,7 @@ public class HotelLogin extends Base{
 		logger.info("Browser opened successfully");
 	}
 	
-	@Test(enabled=false) // TestNG will skip this test case
+	@Test 
 	public void loginToHotelPage() {
 		hotelpageObj = new HotelLoginPageObj();
 		hotelpageObj.clickonSignIn();
